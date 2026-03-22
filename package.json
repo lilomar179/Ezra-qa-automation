@@ -1,0 +1,18 @@
+{
+  "name": "ezra-qa-automation",
+  "version": "1.0.0",
+  "description": "Playwright E2E test automation for Ezra booking flow - Function Health QA Assessment",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "dotenv": "^16.4.0"
+  },
+  "author": "Jonathan Bush",
+  "license": "ISC"
+}
